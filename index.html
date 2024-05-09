@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>01-StonepaperScissorGame</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <script type="text/javascript" src="script.js"></script>
+  <div class="container">
+    <p class="head-text">Rock Paper Scissor</p>
+
+    <button onclick="
+        computerMove=computerchoice();
+        playerchoice(`rock`);
+        " class="move-button"><img src="icons/rock-emoji.png" class="move-icons">
+    </button>
+
+
+    <button onclick="
+        computerMove=computerchoice();
+        playerchoice(`paper`);
+        " class="move-button"><img src="icons/paper-emoji.png" class="move-icons">
+    </button>
+
+
+    <button onclick="
+        computerMove=computerchoice();
+        playerchoice(`scissor`);
+        " class="move-button"><img src="icons/scissor-emoji.png
+        " class="move-icons">
+    </button>
+
+
+    <p class="js-result result"></p>
+    <p class="js-moves moves">
+
+    </p>
+    <p class="js-score"></p>
+
+    <button onclick="
+  score.wins=0;
+  score.losses=0;
+  score.ties=0;
+  localStorage.removeItem(`score`);
+  updateScoreElement();
+  
+  " class="reset-button">Reset Score</button>
+
+  </div>
+
+
+</body>
+
+</html>

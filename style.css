@@ -1,0 +1,53 @@
+.container{
+  margin: 25px;
+}
+
+body {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 2px;
+
+  font-size: 14px;
+}
+.head-text{
+  font-size: 33px;
+  font-weight: bold;
+}
+.move-icons{
+  height: 50px;
+
+}
+.move-button{
+  background-color: transparent;
+  border-width: 4px;
+  border-color: white;
+  padding: 30px;
+  border-radius: 50%;
+  border-style: solid;
+  margin-right: 10px;
+}
+.reset-button{
+  font-size: 16px;
+  padding: 8px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+}
+.moves{
+  color: white;
+  margin-bottom: 35px;
+}
+p{
+  font-size: 18px;
+  font-weight: bold;
+}
